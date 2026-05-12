@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عدسة الجامعة | منصة إعلامية طلابية</title>
+  <meta name="description" content="موقع صحفي جامعي عربي لعرض التغطيات المكتوبة والمصورة والألبومات والرسوم المعلوماتية." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ticker">
+    <strong>عاجل</strong>
+    <marquee direction="right">جامعة قطر تفتح باب التقديم لفصل خريف 2026 | جامعة قطر ضمن أفضل 120 جامعة عالميًا وفق تصنيف QS 2026 | انطلاق فعاليات طلابية وإعلامية في الحرم الجامعي</marquee>
+  </div>
+
+  <header class="site-header">
+    <div class="topbar container">
+      <div class="brand">
+        <div class="logo"><i class="fa-solid fa-camera-retro"></i></div>
+        <div>
+          <h1>عدسة الجامعة</h1>
+          <p>منصة إعلامية طلابية</p>
+        </div>
+      </div>
+      <div class="radio-pill">
+        <i class="fa-solid fa-tower-broadcast"></i>
+        <span>البث المباشر - إذاعة قطر</span>
+        <button id="playRadio"><i class="fa-solid fa-play"></i></button>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a href="#home" class="active"><i class="fa-solid fa-house"></i> الرئيسية</a>
+        <a href="#written"><i class="fa-solid fa-newspaper"></i> تقارير مكتوبة</a>
+        <a href="#video"><i class="fa-solid fa-video"></i> تقارير مصورة</a>
+        <a href="#gallery"><i class="fa-solid fa-images"></i> ألبومات صحفية</a>
+        <a href="#infographics"><i class="fa-solid fa-chart-pie"></i> رسوم معلوماتية</a>
+        <a href="#about"><i class="fa-solid fa-circle-info"></i> حول الموقع</a>
+        <a href="#contact"><i class="fa-solid fa-envelope"></i> اتصل بنا</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <span class="badge">تقرير وسائطي رئيسي</span>
+        <h2>جامعة قطر: صرح أكاديمي يصنع المستقبل</h2>
+        <p>تغطية طلابية تجمع النص والصورة والفيديو والرسوم المعلوماتية لعرض قصص الحرم الجامعي بأسلوب صحفي حديث.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#written">اقرأ التقرير الكامل</a>
+          <a class="btn ghost" href="#gallery">تصفح الألبوم</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container grid-main">
+      <div>
+        <div class="section-head">
+          <h3>آخر الأخبار</h3>
+          <a href="#sources">المصادر</a>
+        </div>
+        <div class="news-grid">
+          <article class="card news-card">
+            <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Qatar%20University.Campus.jpg" alt="جامعة قطر">
+            <span class="tag">تعليم</span>
+            <h4>جامعة قطر ضمن أفضل 120 جامعة عالميًا في تصنيف QS 2026</h4>
+            <p>تواصل الجامعة تعزيز مكانتها الأكاديمية والبحثية إقليميًا ودوليًا.</p>
+            <div class="meta"><i class="fa-regular fa-clock"></i> محدث اليوم</div>
+          </article>
+          <article class="card news-card">
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="تعليم جامعي">
+            <span class="tag">قبول</span>
+            <h4>فتح التقديم لبرامج البكالوريوس في جامعة قطر لخريف 2026</h4>
+            <p>يشمل التقديم الطلاب الجدد والمحولين والزائرين وطلبة الدرجة الثانية.</p>
+            <div class="meta"><i class="fa-regular fa-clock"></i> محدث حديثًا</div>
+          </article>
+          <article class="card news-card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="الدوحة">
+            <span class="tag">محليات</span>
+            <h4>قطر تؤكد دعمها المستمر للتعليم والبحث والابتكار</h4>
+            <p>متابعة لأبرز تطورات التعليم والمجتمع في دولة قطر.</p>
+            <div class="meta"><i class="fa-regular fa-clock"></i> اليوم</div>
+          </article>
+        </div>
+
+        <section class="categories">
+          <a href="#written"><i class="fa-solid fa-file-lines"></i><b>تقارير مكتوبة</b><span>مقالات وتحقيقات</span></a>
+          <a href="#video"><i class="fa-solid fa-video"></i><b>تقارير مصورة</b><span>فيديوهات ومقابلات</span></a>
+          <a href="#gallery"><i class="fa-solid fa-image"></i><b>ألبومات صحفية</b><span>صور من الفعاليات</span></a>
+          <a href="#infographics"><i class="fa-solid fa-chart-column"></i><b>رسوم معلوماتية</b><span>بيانات مرئية</span></a>
+        </section>
+      </div>
+
+      <aside class="sidebar">
+        <div class="radio-card card">
+          <h3><i class="fa-solid fa-microphone-lines"></i> البث المباشر</h3>
+          <p>إذاعة قطر - محطة إخبارية رسمية</p>
+          <div class="wave"></div>
+          <button class="big-play" id="playRadio2"><i class="fa-solid fa-play"></i></button>
+          <small>لو لم يعمل الصوت، استخدم زر زيارة المصدر.</small>
+          <a class="btn mini" href="https://www.qatarradio.qa/" target="_blank" rel="noopener">زيارة إذاعة قطر</a>
+          <audio id="radio" preload="none">
+            <source src="https://stream.radiojar.com/8s5u5tpdtwzuv" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="weather card">
+          <h3>الطقس في الدوحة</h3>
+          <div class="temp">32° <i class="fa-solid fa-sun"></i></div>
+          <p>مشمس - بيانات تجريبية للعرض</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="written" class="container section">
+      <div class="section-head"><h3>تقارير مكتوبة</h3><a>عرض الكل</a></div>
+      <div class="feature card">
+        <img src="assets/students-media.jpg" alt="طالبات جامعيات بلباس خليجي قطري">
+        <div>
+          <span class="badge dark">تقرير مكتوب</span>
+          <h3>صوت الطالبات في الإعلام الجامعي: من القاعة إلى المنصة الرقمية</h3>
+          <p>يتناول هذا التقرير دور الطالبات في صناعة المحتوى الصحفي الجامعي، وكيف تساعد المنصات الرقمية في نشر القصص المؤثرة داخل المجتمع الأكاديمي.</p>
+          <div class="actions"><button><i class="fa-regular fa-heart"></i> إعجاب</button><button><i class="fa-regular fa-comment"></i> تعليق</button><button><i class="fa-solid fa-share-nodes"></i> مشاركة</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="container section">
+      <div class="section-head"><h3>تقارير مصورة</h3><a>عرض الكل</a></div>
+      <div class="video-box card">
+        <div class="video-thumb"><i class="fa-solid fa-circle-play"></i></div>
+        <div>
+          <h3>لقاء خاص مع طالبات الإعلام حول مستقبل الصحافة الرقمية</h3>
+          <p>مساحة مخصصة لإضافة ملف الفيديو الخاص بالمجموعة أو رابط YouTube.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="container section">
+      <div class="section-head"><h3>ألبومات صحفية</h3><a>عرض الكل</a></div>
+      <div class="gallery">
+        <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file:Qatar_University_Campus.jpg" alt="جامعة قطر">
+        <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=900&q=80" alt="طلاب جامعة">
+        <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80" alt="عمل جماعي">
+      </div>
+    </section>
+
+    <section id="infographics" class="container section">
+      <div class="section-head"><h3>رسوم معلوماتية</h3><a>عرض الملف</a></div>
+      <div class="info-card card">
+        <h3>رحلة التغطية الصحفية</h3>
+        <div class="steps">
+          <div><i class="fa-solid fa-magnifying-glass"></i><b>بحث</b></div>
+          <div><i class="fa-solid fa-pen-nib"></i><b>كتابة</b></div>
+          <div><i class="fa-solid fa-camera"></i><b>تصوير</b></div>
+          <div><i class="fa-solid fa-chart-simple"></i><b>تصميم</b></div>
+          <div><i class="fa-solid fa-globe"></i><b>نشر</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section about card">
+      <h3>حول الموقع</h3>
+      <p>عدسة الجامعة موقع صحفي طلابي أُنشئ ضمن مشروع مقرر Multimedia Reporting لعرض مواد التغطية الصحفية الجماعية: تقارير مكتوبة، تقارير مصورة، ألبومات صحفية، ورسوم معلوماتية.</p>
+    </section>
+
+    <section id="contact" class="container section contact card">
+      <h3>اتصل بنا</h3>
+      <form onsubmit="event.preventDefault(); alert('تم استلام الرسالة بنجاح');">
+        <input placeholder="الاسم" required>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <textarea placeholder="رسالتك" required></textarea>
+        <button class="btn primary">إرسال</button>
+      </form>
+    </section>
+
+    <section id="sources" class="container section sources">
+      <h3>مصادر الأخبار المستخدمة</h3>
+      <ul>
+        <li><a href="https://www.qu.edu.qa/newsroom" target="_blank" rel="noopener">غرفة أخبار جامعة قطر</a></li>
+        <li><a href="https://qna.org.qa/en/News-Area/Special-News/2026-5/10/qatars-higher-education-system-generations-build-the-nation-shape-the-future-report" target="_blank" rel="noopener">وكالة الأنباء القطرية - تقرير التعليم العالي</a></li>
+        <li><a href="https://thepeninsulaqatar.com/article/10/05/2026/registration-opens-for-undergraduate-programs-for-fall-2026-semester-qatar-university" target="_blank" rel="noopener">The Peninsula Qatar - فتح التقديم بجامعة قطر</a></li>
+        <li><a href="https://www.qatarradio.qa/" target="_blank" rel="noopener">إذاعة قطر</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><h3>عدسة الجامعة</h3><p>منصة إعلامية طلابية تنشر التغطيات الصحفية بأسلوب عصري.</p></div>
+      <div><h4>روابط سريعة</h4><a href="#written">تقارير مكتوبة</a><a href="#video">تقارير مصورة</a><a href="#gallery">ألبومات</a></div>
+      <div><h4>تابعنا</h4><div class="social"><i class="fa-brands fa-x-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-telegram"></i></div></div>
+    </div>
+    <p class="copy">جميع الحقوق محفوظة © 2026 - مشروع طلابي</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
