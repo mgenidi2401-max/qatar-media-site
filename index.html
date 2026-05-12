@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عدسة الجامعة | بوابة الدخول</title>
+  <meta name="description" content="بوابة دخول منصة عدسة الجامعة الإعلامية الطلابية." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    :root{--maroon:#7a1235;--dark:#210715;--gold:#c8a86a;--white:#fff;--soft:#fff7f1}
+    *{box-sizing:border-box} body{margin:0;font-family:'Cairo',Tahoma,sans-serif;min-height:100vh;overflow:hidden;color:#fff;background:#17030d}
+    .splash{position:relative;min-height:100vh;display:grid;place-items:center;padding:22px;isolation:isolate;background:linear-gradient(115deg,rgba(24,3,13,.92),rgba(122,18,53,.80),rgba(24,3,13,.92)),url('assets/hero-students-qu.jpg') center/cover no-repeat}
+    .splash:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 20%,rgba(200,168,106,.22),transparent 34%),radial-gradient(circle at 80% 70%,rgba(255,255,255,.12),transparent 30%);z-index:-1}
+    .frame{width:min(1060px,96vw);min-height:650px;border:1px solid rgba(255,255,255,.22);border-radius:36px;background:rgba(255,255,255,.08);box-shadow:0 28px 80px rgba(0,0,0,.38);backdrop-filter:blur(14px);display:grid;grid-template-columns:1.05fr .95fr;overflow:hidden}
+    .content{padding:58px 54px;display:flex;flex-direction:column;justify-content:center}.visual{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(255,255,255,.04));display:grid;place-items:center;overflow:hidden}
+    .visual img{width:82%;max-height:78%;object-fit:cover;border-radius:28px;box-shadow:0 28px 60px rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.25)}
+    .live{position:absolute;top:30px;right:30px;background:#c41230;color:#fff;border-radius:999px;padding:8px 16px;font-weight:900;display:flex;gap:8px;align-items:center}.live:before{content:"";width:9px;height:9px;background:#fff;border-radius:50%;animation:pulse 1.2s infinite}
+    .logo{display:flex;align-items:center;gap:14px;margin-bottom:26px}.logo-icon{width:68px;height:68px;border-radius:22px;background:linear-gradient(135deg,var(--gold),var(--maroon));display:grid;place-items:center;font-size:32px;box-shadow:0 18px 35px rgba(0,0,0,.22)}
+    h1{font-size:clamp(42px,6vw,78px);line-height:1.12;margin:0 0 16px;font-weight:900;letter-spacing:-1px}.subtitle{font-size:21px;color:#fff8;max-width:650px;margin:0 0 32px;line-height:1.9}.badge{display:inline-flex;align-items:center;gap:8px;width:max-content;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:8px 16px;color:#ffe7b2;font-weight:800;margin-bottom:22px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 34px}.stat{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);border-radius:18px;padding:16px;text-align:center}.stat i{color:#ffe1a3;font-size:23px}.stat b{display:block;font-size:17px;margin-top:7px}.stat span{font-size:12px;color:#fff9}
+    .actions{display:flex;gap:14px;flex-wrap:wrap}.enter{appearance:none;border:0;border-radius:18px;padding:15px 28px;font-family:inherit;font-size:18px;font-weight:900;cursor:pointer;background:linear-gradient(135deg,var(--gold),#fff0ba);color:#40101f;box-shadow:0 18px 34px rgba(200,168,106,.25);text-decoration:none;display:inline-flex;align-items:center;gap:10px}.ghost{border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);color:#fff;border-radius:18px;padding:15px 22px;text-decoration:none;font-weight:800;display:inline-flex;align-items:center;gap:9px}
+    .loader{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);width:min(420px,80vw);height:5px;background:rgba(255,255,255,.16);border-radius:999px;overflow:hidden}.loader span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),#fff);animation:load 3.2s ease forwards}
+    .skip{position:absolute;left:24px;top:24px;color:#fff;text-decoration:none;font-weight:800;background:rgba(0,0,0,.22);padding:9px 14px;border-radius:999px}
+    @keyframes load{to{width:100%}}@keyframes pulse{50%{opacity:.35;transform:scale(1.5)}}
+    @media(max-width:850px){body{overflow:auto}.splash{min-height:100svh}.frame{grid-template-columns:1fr;min-height:auto}.visual{min-height:300px;order:-1}.visual img{width:88%;height:240px}.content{padding:34px 24px}.stats{grid-template-columns:1fr}.actions a{width:100%;justify-content:center}h1{font-size:42px}.subtitle{font-size:17px}.skip{left:12px;top:12px}.loader{bottom:12px}}
+  </style>
+</head>
+<body>
+  <section class="splash">
+    <a class="skip" href="home.html">تخطي الدخول</a>
+    <div class="frame">
+      <div class="content">
+        <div class="logo"><div class="logo-icon"><i class="fa-solid fa-camera-retro"></i></div><div><strong>عدسة الجامعة</strong><br><span>منصة إعلامية طلابية</span></div></div>
+        <span class="badge"><i class="fa-solid fa-satellite-dish"></i> تغطية صحفية جامعية مباشرة</span>
+        <h1>من قلب الجامعة تبدأ الحكاية</h1>
+        <p class="subtitle">تقارير مكتوبة، تغطيات مصورة، ألبومات صحفية، ورسوم معلوماتية في واجهة عربية حديثة تليق بمشروع التغطية الصحفية.</p>
+        <div class="stats">
+          <div class="stat"><i class="fa-solid fa-newspaper"></i><b>تقارير مكتوبة</b><span>مقالات وتحقيقات</span></div>
+          <div class="stat"><i class="fa-solid fa-video"></i><b>تقارير مصورة</b><span>فيديو ومقابلات</span></div>
+          <div class="stat"><i class="fa-solid fa-chart-pie"></i><b>رسوم معلوماتية</b><span>عرض بصري للبيانات</span></div>
+        </div>
+        <div class="actions">
+          <a class="enter" href="home.html"><i class="fa-solid fa-arrow-left"></i> دخول الموقع</a>
+          <a class="ghost" href="https://www.aljazeera.net/live" target="_blank" rel="noopener"><i class="fa-solid fa-play"></i> بث إخباري مباشر</a>
+        </div>
+      </div>
+      <div class="visual">
+        <span class="live">LIVE</span>
+        <img src="assets/students-media.jpg" alt="طالبات جامعيات بلباس خليجي قطري في تغطية إعلامية">
+      </div>
+    </div>
+    <div class="loader"><span></span></div>
+  </section>
+</body>
+</html>
